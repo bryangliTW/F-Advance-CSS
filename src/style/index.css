@@ -94,6 +94,7 @@ ul {
 
 .sign-in-block-container {
   align-self: center;
+  height: 100vh;
 }
 
 .sign-in-block {
