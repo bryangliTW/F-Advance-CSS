@@ -10,6 +10,7 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
+  height: 100vh;
 }
 
 * {
@@ -43,7 +44,6 @@ ul {
   justify-content: space-around;
   align-items: flex-start;
   width: 1500px;
-  margin-bottom: 100px;
 }
 
 .left-of-page {
@@ -94,7 +94,6 @@ ul {
 
 .sign-in-block-container {
   align-self: center;
-  height: 100vh;
 }
 
 .sign-in-block {
@@ -142,14 +141,9 @@ ul {
 
 .page-footer {
   background-color: #eaeaea;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
   text-align: center;
-  height: 100px;
+  padding: 30px;
   border-top: 1px solid lightgray;
-  position: fixed;
-  bottom: 0;
   width: 100%;
 }
 
